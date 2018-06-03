@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: 'ThaiSansNeueLight';
+  src: url('http://member.99newone.com/themes/default/admin/assets/css/webfont/ThaiSansNeueLight.eot?#iefix') format('embedded-opentype'), 
+ url('http://member.99newone.com/themes/default/admin/assets/css/webfont/ThaiSansNeueLight.woff') format('woff'),
+ url('http://member.99newone.com/themes/default/admin/assets/css/webfont/ThaiSansNeueLight.ttf')  format('truetype'), 
+url('http://member.99newone.com/themes/default/admin/assets/css/webfont/ThaiSansNeueLight.svg#ThaiSansNeueLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

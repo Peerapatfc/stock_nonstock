@@ -1,0 +1,55 @@
+/********** 2. RESET STYLES **********/
+/*************************************/
+
+.panel-success .panel-heading {
+    background-color: #1CAF9A;
+}
+.panel-danger .panel-heading {
+    background-color: #D9534F;
+}
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #428bca;
+    border-bottom-color: rgb(66, 139, 202);
+}
+.panel-dark .panel-heading {
+    background-color: #1d2939;
+}
+.panel-stat h1 {
+    margin: 0;
+    line-height: 36px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 38px;
+}
+.panel-stat .stat {
+    color: #fff;
+}
+
+.nav.main-menu .children > li > a {
+    color: #94989d;
+    font-size: 13px;
+    display: block;
+    padding: 1px 0 1px 27px;
+    transition: all 0.2s ease-out 0s;
+}
+
+.nav.main-menu > li > a:hover {
+    background-color: #fff;
+    color: #1d2939;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+}
+
+#sidebar_menu ul li > a {
+    border-radius: 3px;
+}
+
+#SLData {
+    width: 100% !important;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+
+
+

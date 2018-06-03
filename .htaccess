@@ -1,0 +1,21 @@
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+# RewriteBase /basepath/
+RewriteCond $1 !^(index\.php|assets|install|update)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For godady Shared Hosting Server uncomment the line below
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+# Please comment this if you have uncommented the above
+# RewriteRule ^(.*)$ index.php/$1 [NC,L,QSA]
+
+php_value upload_max_filesize 512M
+php_value post_max_size 128M
+php_value max_file_uploads 80000
+php_value memory_limit 1024M
+</IfModule>
